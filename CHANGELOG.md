@@ -1,3 +1,7 @@
+## 1.1.0 (October 30, 2018)
+
+* Added data dource template_dir.
+
 ## 1.0.1 (Unreleased)
 ## 1.0.0 (September 26, 2017)
 

@@ -10,6 +10,7 @@ func Provider() terraform.ResourceProvider {
 		DataSourcesMap: map[string]*schema.Resource{
 			"template_file":             dataSourceFile(),
 			"template_cloudinit_config": dataSourceCloudinitConfig(),
+			"template_dir":              dataSourceDir(),
 		},
 		ResourcesMap: map[string]*schema.Resource{
 			"template_file": schema.DataSourceResourceShim(
